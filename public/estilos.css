@@ -1,0 +1,41 @@
+body {
+  background: #141414;
+  text-align: center;
+}
+
+h1 img{
+  width: 489px;
+  margin: 40px;
+}
+
+input {
+  height: 30px;
+  margin: 10;
+  border: 1px solid #ffd700;
+  font-size: 18px;
+  padding: 12px;
+  background: grey;
+  color: white;
+}
+
+button {
+  background: gold;
+  border: goldenrod;
+  font-size: 18px;
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+  color: black;
+}
+
+.result {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid #ffd700;
+  background: gray;
+  margin: 100px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 50px;
+}
