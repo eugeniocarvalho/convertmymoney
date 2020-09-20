@@ -1,7 +1,7 @@
 <%- include('header') %>
-<form method="GET" action="/cotacao">
-  <input name="cotacao" placeholder="Cotação Dólar" value="<%= cotacao %>"> <br>
-  <input name="quantidade" placeholder="Quantidade de dólares"> <br>
-  <button>Converter</button>
+<form class="mx-auto " style="width: 200px;" method="GET" id="converter" action="/cotacao">
+  <input class="input-group mb-10" name="cotacao" required placeholder="Cotação Dólar" value="<%= cotacao %>"> <br>
+  <input class="input-group mb-10" name="quantidade" required placeholder="Quantidade de dólares"> <br>
+  <button class="btn btn-warning mx-auto text-center" style="width: 200px;">Converter</button>
 </form>
 <%- include('footer') %>

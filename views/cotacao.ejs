@@ -1,5 +1,5 @@
 <%- include('header') %>
-<div class="result">
+<div class="result mx-auto" style="width: 400px;;">
   <% if (error) {%>
   <%= error %>
   <% } else {%>
@@ -7,8 +7,8 @@
   <% } %>
 </div>
 
-<form action="/">
-  <button>Voltar</button>
+<form class="mx-auto p-3" style="width: 150px;" action="/">
+  <button class="btn btn-warning mx-auto text-center">Voltar</button>
 </form>
 
 <%- include('footer') %>
